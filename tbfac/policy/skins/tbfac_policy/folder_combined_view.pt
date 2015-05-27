@@ -12,7 +12,7 @@
  tal:define="jury python: context.absolute_url().split('/')[-1];
              is_12 python: jury in ['whw','lyp','hyf','ljy'];
              is_13 python: jury in ['ccf','ccy'];
-             is_14 python: jury in ['ymy', 'linp', 'ssy', 'frq', 'chm'];
+             is_14 python: jury in ['ymy', 'linp', 'ssy', 'frq', 'chm', 'lcm'];
              is_23 python: jury in ['ljs','cts','chj'];
              is_34 python: jury in ['chh','klt','kcl'];
              is_234 python: jury in ['jhl'];">
